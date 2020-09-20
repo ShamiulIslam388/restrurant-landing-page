@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url(images/bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.pre__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: rgb(7, 54, 50);
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+.contact a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+nav {
+    margin: 10px 0;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    background: rgb(92, 228, 210); 
+    
+}
+
+nav ul li {
+    flex:1;    
+}
+
+nav ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px; 
+    color: #fff;  
+    padding: 10px 30px; 
+}
+
+.highlight {
+    background-color: rgb(27, 146, 136); 
+}
+
+.active {
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+}
+
+.content h1 {
+    font-size: 67px;
+    padding: 10px 15px;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.content .active {
+    display: inline-block;
+    padding: 10px 40px;
+    font-weight: normal;
+}
+
+.content a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-top: 6px;
+    background: rgb(92, 228, 210);
+    width: 200px;
+    box-sizing: border-box;
+    padding: 10px 40px;
+
+}
